@@ -169,7 +169,7 @@ public class Analysis {
                 return Collections.emptyList();
             }
         });
-
+        System.out.println("Number of Repos are: ");
         System.out.println(javaRDD.count());
     }
 
